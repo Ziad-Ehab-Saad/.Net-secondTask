@@ -63,7 +63,7 @@ namespace SecondTaskEraaSoft
                         }
                         else
                         {
-                            Console.Write("[");
+                            Console.Write("[ ");
                             for (int i = 0; i < list.Count; i++)
                             {
                                 
@@ -89,6 +89,7 @@ namespace SecondTaskEraaSoft
                             Console.WriteLine($"{inputData} added ....");
 
                         }
+                        //Bouns part prevent Duplicates
                         else if (duplicates =='n')
                         {
                             bool flag = false;
@@ -233,8 +234,43 @@ namespace SecondTaskEraaSoft
                         }
                         break;
                     case 'z':
-                        list.Sort();
-                        Console.WriteLine("list is Sorted...");
+                        if (list.Count==0)
+                        {
+                            Console.WriteLine("list is empty , nothing to be sorted .");
+                        }
+                        else
+                        {
+
+                            for (int i = 0; i < list.Count -1; i++)
+                            {
+                                bool swapped = false;
+                                for (int j = 0; j < list.Count-i-1; j++)
+                                {
+                                    if (list[j] > list[j+1])
+                                    {
+                                        int temp = list[j];
+                                        list[j]=list[j+1];
+                                        list[j + 1] = temp;
+                                        swapped = true;
+
+
+                                    }
+                                   
+
+
+                                }
+                                if (!swapped == true) break;
+
+
+                            }
+
+
+
+
+                            Console.WriteLine("List is sorted ...");
+
+
+                        }
 
                         break;
                     case 'q':

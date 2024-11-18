@@ -12,3 +12,4 @@ D:\EraaSoft Course .NET\Lec-3\Task-2\SecondTaskEraaSoft\SecondTaskEraaSoft\obj\D
 D:\EraaSoft Course .NET\Lec-3\Task-2\SecondTaskEraaSoft\SecondTaskEraaSoft\obj\Debug\net8.0\SecondTaskEraaSoft.pdb
 D:\EraaSoft Course .NET\Lec-3\Task-2\SecondTaskEraaSoft\SecondTaskEraaSoft\obj\Debug\net8.0\SecondTaskEraaSoft.genruntimeconfig.cache
 D:\EraaSoft Course .NET\Lec-3\Task-2\SecondTaskEraaSoft\SecondTaskEraaSoft\obj\Debug\net8.0\ref\SecondTaskEraaSoft.dll
+D:\EraaSoft Course .NET\Lec-3\Task-2\SecondTaskEraaSoft\SecondTaskEraaSoft\obj\Debug\net8.0\SecondTaskEraaSoft.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecondTaskEraaSoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ccaad32f4f1067ea5144699da07bb3eb251feb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecondTaskEraaSoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecondTaskEraaSoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
